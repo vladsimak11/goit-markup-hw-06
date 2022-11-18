@@ -59,7 +59,7 @@ button:hover {
   margin: -1px;
   border: 0;
   padding: 0;
-  
+
   white-space: nowrap;
   clip-path: inset(100%);
   clip: rect(0 0 0 0);
@@ -102,14 +102,12 @@ header {
 .main-nav {
   display: flex;
   margin-left: 93px;
-
 }
 
 .main-nav > .item {
   padding-top: 32px;
   padding-bottom: 32px;
   position: relative;
-
 }
 
 .main-nav > .item:not(:last-child),
@@ -153,11 +151,10 @@ header {
 .main-nav .link:focus,
 .link.active {
   color: var(--link-color);
-
 }
 
 .link.active::after {
-  content: '';
+  content: "";
 
   position: absolute;
   left: 0;
@@ -179,9 +176,10 @@ header {
   margin-left: auto;
   margin-right: auto;
   background-image: linear-gradient(
-    rgba(47, 48, 58, 0.4),
-    rgba(47, 48, 58, 0.4)
-  ), url('../images/hero.jpg');
+      rgba(47, 48, 58, 0.4),
+      rgba(47, 48, 58, 0.4)
+    ),
+    url("../images/hero.jpg");
 
   padding-top: 200px;
   padding-bottom: 200px;
@@ -217,7 +215,8 @@ header {
   border-radius: 4px;
   border-color: transparent;
 
-  transition: background-color var(--transition-duration) var(--transition-timing);
+  transition: background-color var(--transition-duration)
+    var(--transition-timing);
 }
 
 .hero button:hover,
@@ -238,7 +237,7 @@ header {
 }
 
 .advantages-list > .item {
-  flex-basis: calc((100% - 90px)/4);
+  flex-basis: calc((100% - 90px) / 4);
 }
 
 .advantages-block {
@@ -247,9 +246,8 @@ header {
   justify-content: center;
   width: 100%;
   height: 120px;
-  background-color: #F5F4FA;
+  background-color: #f5f4fa;
   margin-bottom: 30px;
-
 }
 
 .advantages-icon {
@@ -298,7 +296,6 @@ header {
   display: block;
 }
 
-
 .directions-list > .item:not(:last-child) {
   margin-right: 30px;
 }
@@ -311,9 +308,9 @@ header {
 
 .directions-name {
   position: absolute;
-  left:0;
+  left: 0;
   bottom: 0;
- 
+
   display: flex;
   align-items: center;
   justify-content: center;
@@ -359,10 +356,10 @@ header {
 }
 
 .team-list > .item {
-  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0 0 4px 4px;
   background-color: var(--white-color);
-
 }
 
 .team-wrapper {
@@ -379,7 +376,7 @@ header {
 
 .team-social-item {
   width: 44px;
-  height: 44px;  
+  height: 44px;
 }
 
 .team-social-link {
@@ -391,7 +388,8 @@ header {
   border-radius: 50%;
   color: #afb1b8;
 
-  transition: color var(--transition-duration) var(--transition-timing), background-color var(--transition-duration) var(--transition-timing);
+  transition: color var(--transition-duration) var(--transition-timing),
+    background-color var(--transition-duration) var(--transition-timing);
 }
 
 .team-social-icon {
@@ -414,7 +412,6 @@ header {
 .clients-list {
   display: flex;
   align-items: center;
-
 }
 
 .clients-list > .item:not(:last-child) {
@@ -427,18 +424,19 @@ header {
   justify-content: center;
   width: 170px;
   height: 92px;
-  border: 1px solid #AFB1B8;
+  border: 1px solid #afb1b8;
   border-radius: 4px;
   color: #afb1b8;
 
-  transition: color var(--transition-duration) var(--transition-timing), background-color var(--transition-duration) var(--transition-timing);
+  transition: color var(--transition-duration) var(--transition-timing),
+    background-color var(--transition-duration) var(--transition-timing);
 }
 
 .clients-icon {
   fill: currentColor;
 }
 
-.clients-link:hover, 
+.clients-link:hover,
 .clients-link:focus {
   color: var(--link-color);
   border-color: var(--link-color);
@@ -463,7 +461,6 @@ header {
   padding: 6px 22px;
   border-color: transparent;
   border-radius: 4px;
-
 }
 
 .portfolio-button > .item:not(:last-child) {
@@ -480,14 +477,17 @@ header {
   line-height: 1.6;
   text-align: center;
 
-  transition: color var(--transition-duration) var(--transition-timing), background-color var(--transition-duration) var(--transition-timing), box-shadow var(--transition-duration) var(--transition-timing);
+  transition: color var(--transition-duration) var(--transition-timing),
+    background-color var(--transition-duration) var(--transition-timing),
+    box-shadow var(--transition-duration) var(--transition-timing);
 }
 
 .portfolio .button:hover,
 .portfolio .button:focus {
   color: var(--white-color);
   background-color: var(--link-color);
-  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
 .portfolio .portfolio-img {
@@ -515,7 +515,6 @@ header {
   flex-wrap: wrap;
   flex-basis: calc((100% - 60px) / 3);
   gap: 30px;
-
 }
 
 .portfolio-flex > .item {
@@ -523,7 +522,8 @@ header {
 }
 
 .portfolio-flex > .item:hover {
-  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+    1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
 .portfolio-wrapper {
@@ -588,23 +588,23 @@ header {
   pointer-events: none;
 }
 
-.backdrop.is-hidden .modal{
+.backdrop.is-hidden .modal {
   transform: translate(-50%, -50%) scale(0.8);
-} 
+}
 
 .modal {
   position: absolute;
-
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%) scale(1);
-
+  padding: 40px;
 
   min-width: 528px;
   min-height: 581px;
 
   background-color: var(--white-color);
-  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 4px;
 
   transition: transform 500ms var(--transition-timing);
@@ -617,7 +617,6 @@ header {
   margin-top: 8px;
   margin-right: 8px;
   color: #000000;
-  
 }
 
 .icon-close {
@@ -628,8 +627,8 @@ header {
 .icon-close:hover,
 .icon-close:focus {
   color: var(--link-color);
+  cursor: pointer;
 }
-
 
 /* Form order */
 .form-header {
@@ -638,14 +637,7 @@ header {
   line-height: 1.2;
   text-align: center;
   color: var(--title-color);
-  padding-top: 40px;
   margin-bottom: 12px;
-}
-
-
-.form-order {
-  padding-left: 40px;
-  padding-right: 40px;
 }
 
 .form-order-item {
@@ -678,7 +670,7 @@ header {
   border-radius: 4px;
   transition: border-color var(--transition-duration) var(--transition-timing);
 }
-  
+
 .form-order-input {
   height: 40px;
   width: 100%;
@@ -688,7 +680,7 @@ header {
 
 .form-order-input:focus,
 .form-order-comment:focus {
-  border-color: var(--link-color);
+  outline-color: var(--link-color);
 }
 
 .form-order-comment {
@@ -716,7 +708,7 @@ header {
   left: 12px;
   transform: translateY(-50%);
   color: var(--title-color);
-  
+
   transition: color var(--transition-duration) var(--transition-timing);
 }
 
@@ -725,7 +717,7 @@ header {
 }
 
 .form-order-input:focus ~ .form-order-icon {
-  color: var(--link-color)
+  color: var(--link-color);
 }
 
 .form-order-checkbox {
@@ -743,11 +735,16 @@ header {
 
 .checkbox:checked + .icon-checkbox {
   background-color: var(--link-color);
-  background-image: url('../images/icon-check.svg');
+  background-image: url("../images/icon-check.svg");
   background-size: contain;
   background-origin: border-box;
   border-color: var(--link-color);
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  cursor: pointer;
+}
+
+.icon-checkbox:hover {
+  cursor: pointer;
 }
 
 .checkbox-label {
@@ -817,12 +814,12 @@ header {
 .footer-social-block {
   display: flex;
   justify-content: center;
-  gap: 10px
+  gap: 10px;
 }
 
 .footer-social-item {
   width: 44px;
-  height: 44px;  
+  height: 44px;
 }
 
 .footer-social-link {
@@ -835,7 +832,8 @@ header {
   color: var(--white-color);
   background-color: rgba(255, 255, 255, 0.1);
 
-  transition: background-color var(--transition-duration) var(--transition-timing);
+  transition: background-color var(--transition-duration)
+    var(--transition-timing);
 }
 
 .footer-social-icon {
@@ -849,18 +847,7 @@ header {
 
 .form-subscribe {
   margin-top: 20px;
-}
-
-.form-subscribe-flex {
   display: flex;
-}
-
-.subscribe-item {
-  position: relative;
-}
-
-.subscribe-item:not(:last-child) {
-  margin-right: 12px;
 }
 
 .subscribe-email {
@@ -874,6 +861,7 @@ header {
   color: var(--white-color);
   padding: 0;
   padding-left: 16px;
+  margin-right: 12px;
 }
 .subscribe-email::placeholder {
   display: flex;
@@ -881,7 +869,6 @@ header {
   color: rgba(255, 255, 255, 0.6);
   font-size: 16px;
   line-height: 1.3;
-
 }
 
 .icon-subscribe {
@@ -895,14 +882,14 @@ header {
   width: 200px;
   height: 50px;
   padding: 0;
-  
+
   background-color: var(--link-color);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
   border-color: transparent;
 
-  transition: background-color var(--transition-duration) var(--transition-timing);
-
+  transition: background-color var(--transition-duration)
+    var(--transition-timing);
 }
 
 .form-button-text {
